@@ -59,7 +59,7 @@ plt.title('Red de contrataciones (nodos y arcos)')
 plt.axis('off')  # Apagar los ejes
 plt.show()
 
-![Grafo ](https://github.com/Sgonzalezr1/Ejercicios-Modelamiento/blob/main/ESQUEMA%20HORARIOS.png)
+![Grafo ](ESQUEMA HORARIOS.png)
 
 m = Model()
 
