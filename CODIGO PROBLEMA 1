@@ -1,4 +1,4 @@
-**Problema 1: Contratación de nuevos empleados (30 puntos)**
+***Problema 1: Contratación de nuevos empleados (30 puntos)***
 **CODIGO:**
 
 import networkx as nx
