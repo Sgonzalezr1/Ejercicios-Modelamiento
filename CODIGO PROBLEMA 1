@@ -1,7 +1,7 @@
 ***Problema 1: Contratación de nuevos empleados (30 puntos)***
 **CODIGO:**
 
-´´´import networkx as nx
+```import networkx as nx
 import matplotlib.pyplot as plt
 from gurobipy import Model, GRB
 
