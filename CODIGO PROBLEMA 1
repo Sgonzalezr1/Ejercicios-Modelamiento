@@ -1,7 +1,9 @@
 ***Problema 1: Contratación de nuevos empleados (30 puntos)***
+
 **CODIGO:**
 
-```import networkx as nx
+```python
+import networkx as nx
 import matplotlib.pyplot as plt
 from gurobipy import Model, GRB
 
@@ -90,4 +92,3 @@ if m.Status == GRB.OPTIMAL:
     print("Binary variable values for each arc:")
     for arc in arcos:
         print(f"Arc {arc}: {x[arc].x}")
-
