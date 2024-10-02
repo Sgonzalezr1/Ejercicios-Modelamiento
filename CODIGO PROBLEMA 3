@@ -81,10 +81,7 @@ if m.status == GRB.OPTIMAL:
     for edge in Edges:
             print(f"Ruta desde {edge[0]} a {edge[1]} : {flow[edge].x}")
 
-
-
-
-
+**SOLUCIÓN**
 
 Optimize a model with 13 rows, 17 columns and 27 nonzeros
 Model fingerprint: 0x207c106c
