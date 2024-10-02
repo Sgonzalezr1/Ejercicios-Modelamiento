@@ -2,7 +2,7 @@
 
 **CODIGO:**
 
-```python
+python:
 import networkx as nx
 import matplotlib.pyplot as plt
 from gurobipy import Model, GRB
@@ -92,3 +92,40 @@ if m.Status == GRB.OPTIMAL:
     print("Binary variable values for each arc:")
     for arc in arcos:
         print(f"Arc {arc}: {x[arc].x}")
+
+**SOLUCIÓN**
+
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
+
+CPU model: 13th Gen Intel(R) Core(TM) i7-13620H, instruction set [SSE2|AVX|AVX2]
+Thread count: 10 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 8 rows, 21 columns and 21 nonzeros
+Model fingerprint: 0x53287347
+Variable types: 0 continuous, 21 integer (21 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [9e+00, 4e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 238.0000000
+Presolve removed 8 rows and 21 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+
+Explored 0 nodes (0 simplex iterations) in 0.02 seconds (0.00 work units)
+Thread count was 1 (of 16 available processors)
+
+Solution count 2: 157 238 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.570000000000e+02, best bound 1.570000000000e+02, gap 0.0000%
+Ruta desde Ca a 11:00
+Ruta desde Cb a 09:00
+Ruta desde Cb a 10:00
+Ruta desde Cc a 12:00
+Ruta desde Cc a 13:00
+Ruta desde Ce a 14:00
+Ruta desde Ce a 15:00
+Ruta desde Cg a 16:00
+
