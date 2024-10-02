@@ -59,8 +59,6 @@ plt.title('Red de contrataciones (nodos y arcos)')
 plt.axis('off')  # Apagar los ejes
 plt.show()
 
-![Grafo ](ESQUEMA HORARIOS.png)
-
 m = Model()
 
 # Variables
@@ -93,4 +91,3 @@ if m.Status == GRB.OPTIMAL:
     for arc in arcos:
         print(f"Arc {arc}: {x[arc].x}")
 
- ![Grafo Solución](logo.png)
