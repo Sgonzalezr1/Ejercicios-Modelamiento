@@ -121,5 +121,39 @@ plt.show()
 ```
 
 **Solución**
+```
+Optimize a model with 12 rows, 15 columns and 30 nonzeros
+Model fingerprint: 0x1290b90d
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+00, 8e+00]
+  RHS range        [3e+00, 8e+00]
+Presolve removed 12 rows and 15 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    1.5000000e+01   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.01 seconds (0.00 work units)
+Optimal objective  1.500000000e+01
+
+Flujos óptimos en cada arista:
+Flujo desde Fa hacia Pa: <gurobi.Var flow[Fa,Pa] (value 6.0)>/6
+Flujo desde Fa hacia Pau: <gurobi.Var flow[Fa,Pau] (value 1.0)>/1
+Flujo desde Fa hacia Paj: <gurobi.Var flow[Fa,Paj] (value 1.0)>/1
+Flujo desde Fu hacia Pu: <gurobi.Var flow[Fu,Pu] (value 3.0)>/8
+Flujo desde Fu hacia Puj: <gurobi.Var flow[Fu,Puj] (value 2.0)>/2
+Flujo desde Fj hacia Pj: <gurobi.Var flow[Fj,Pj] (value 2.0)>/2
+Flujo desde Pa hacia Va: <gurobi.Var flow[Pa,Va] (value 6.0)>/6
+Flujo desde Pau hacia Va: <gurobi.Var flow[Pau,Va] (value 1.0)>/1
+Flujo desde Pau hacia Vu: <gurobi.Var flow[Pau,Vu] (value 0.0)>/1
+Flujo desde Paj hacia Va: <gurobi.Var flow[Paj,Va] (value 0.0)>/1
+Flujo desde Paj hacia Vj: <gurobi.Var flow[Paj,Vj] (value 1.0)>/1
+Flujo desde Pu hacia Vu: <gurobi.Var flow[Pu,Vu] (value 3.0)>/8
+Flujo desde Puj hacia Vu: <gurobi.Var flow[Puj,Vu] (value 0.0)>/2
+Flujo desde Puj hacia Vj: <gurobi.Var flow[Puj,Vj] (value 2.0)>/2
+Flujo desde Pj hacia Vj: <gurobi.Var flow[Pj,Vj] (value 2.0)>/2
+```
 ![Solución Escenario Base](sol_politicas0.png)
 
