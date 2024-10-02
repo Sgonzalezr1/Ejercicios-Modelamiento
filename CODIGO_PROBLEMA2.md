@@ -117,7 +117,8 @@ nx.draw(G, pos, with_labels=True, node_size=1000, node_color='lightblue', arrows
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels_with_flow, font_size=12)
 
 plt.title("Flujo Máximo de vacunados", size=20)
-plt.show()```
+plt.show()
+```
 
 **Solución**
 ![Solución Escenario Base](sol_politicas0.png)
