@@ -2,7 +2,7 @@
 
 **CODIGO:**
 
-python:
+```
 import networkx as nx
 import matplotlib.pyplot as plt
 from gurobipy import Model, GRB
@@ -92,9 +92,9 @@ if m.Status == GRB.OPTIMAL:
     print("Binary variable values for each arc:")
     for arc in arcos:
         print(f"Arc {arc}: {x[arc].x}")
-
+```
 **SOLUCIÓN**
-
+```
 Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (win64 - Windows 11.0 (22631.2))
 
 CPU model: 13th Gen Intel(R) Core(TM) i7-13620H, instruction set [SSE2|AVX|AVX2]
@@ -128,4 +128,5 @@ Ruta desde Cc a 13:00
 Ruta desde Ce a 14:00
 Ruta desde Ce a 15:00
 Ruta desde Cg a 16:00
-
+```
+![Esquema horarios](ESQUEMA HORARIOS.png)
