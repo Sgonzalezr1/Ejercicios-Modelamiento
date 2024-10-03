@@ -129,4 +129,4 @@ Ruta desde Ce a 14:00
 Ruta desde Ce a 15:00
 Ruta desde Cg a 16:00
 ```
-![Esquema horarios](ESQUEMA HORARIOS.png)
+![Esquema horarios](esquemahorarios.png)
