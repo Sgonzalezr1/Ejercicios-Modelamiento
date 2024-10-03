@@ -1,6 +1,6 @@
 **Problema 3: Selección del modo de transporte (40 puntos)**
 Codigo:
-
+```
 import networkx as nx
 import matplotlib.pyplot as plt
 from gurobipy import Model, GRB
@@ -80,9 +80,9 @@ m.optimize()
 if m.status == GRB.OPTIMAL:
     for edge in Edges:
             print(f"Ruta desde {edge[0]} a {edge[1]} : {flow[edge].x}")
-
+```
 **SOLUCIÓN**
-
+```
 Optimize a model with 13 rows, 17 columns and 27 nonzeros
 Model fingerprint: 0x207c106c
 Coefficient statistics:
@@ -115,3 +115,4 @@ Ruta desde D4T a C2 : 10.0
 Ruta desde D4T a C3 : 10.0
 Ruta desde D4 a C2 : 0.0
 Ruta desde D4 a C3 : 0.0
+```
