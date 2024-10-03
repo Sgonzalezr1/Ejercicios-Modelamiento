@@ -157,7 +157,7 @@ Flujo desde Pj hacia Vj: <gurobi.Var flow[Pj,Vj] (value 2.0)>/2
 ```
 ![Solución Escenario Base](sol_politicas0.png)
 
-***CODIGO PROBLEMA 2: ESCENARIO POLITICA 2***
+***CODIGO PROBLEMA 2: ESCENARIO POLITICA A***
 ```
 import networkx as nx
 import math 
@@ -318,7 +318,7 @@ Flujo desde Pj hacia Vj: <gurobi.Var flow[Pj,Vj] (value 2.0)>/2
 ```
 ![Solución Escenario politica a](sol_politicas1.png)
 
-***CODIGO PROBLEMA 2: ESCENARIO POLITICA 1***
+***CODIGO PROBLEMA 2: ESCENARIO POLITICA B***
 ```
 # Nodos de origen y destino
 nodos = ['Fa','Fu','Fj','Pa', 'Pau', 'Paj', 'Pu', 'Puj', 'Pj', 'Va', 'Vu', 'Vj']
